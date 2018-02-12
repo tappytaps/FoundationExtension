@@ -42,7 +42,7 @@ FOUNDATION_EXPORT double FoundationExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char FoundationExtensionVersionString[];
 
 
-#import <FoundationExtensionRC/FoundationExtensionRC.h>
+//#import <FoundationExtensionRC/FoundationExtensionRC.h>
 
 // depenency level 0
 #import <FoundationExtension/NSArray.h>                     // level: 0 / deps(0):  / internal(1): NSData
