@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     ss.source_files = "FoundationExtension/*.{h,m}"
     ss.public_header_files = "FoundationExtension/*.h"
     ss.header_dir = "FoundationExtension"
-    ss.dependency "FoundationExtension/FoundationExtensionRC"
+    # ss.dependency "FoundationExtension/FoundationExtensionRC"
   end
 
   s.subspec "CocoaExtension" do |ss|
